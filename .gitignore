@@ -1,0 +1,13 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python files (from icon generation)
+__pycache__/
+*.py[cod]
+*$py.class
+generate_icons.py
+
+# Git
+.git/

@@ -1,0 +1,41 @@
+{
+    "manifest_version": 3,
+    "name": "TAB TAX",
+    "version": "1.0",
+    "description": "Break the cycle of mindless browsing. Pay a small tax of effort to access distraction sites.",
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "assets/icon16.png",
+            "48": "assets/icon48.png",
+            "128": "assets/icon128.png"
+        }
+    },
+    "icons": {
+        "16": "assets/icon16.png",
+        "48": "assets/icon48.png",
+        "128": "assets/icon128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "game_manager.js",
+                "games/memory_matrix.js",
+                "games/typing_challenge.js",
+                "games/math_quiz.js",
+                "content.js"
+            ],
+            "css": [
+                "content.css"
+            ]
+        }
+    ]
+}

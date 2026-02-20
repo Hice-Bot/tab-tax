@@ -1,0 +1,147 @@
+body {
+  width: 320px;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  padding: 20px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h1 {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin: 0;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #000;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+}
+
+input[type="text"] {
+  flex-grow: 1;
+  padding: 12px;
+  border: 2px solid #000;
+  background: #fff;
+  color: #000;
+  font-size: 14px;
+  font-family: inherit;
+  outline: none;
+  transition: all 0.2s;
+}
+
+input[type="text"]:focus {
+  background: #f8f8f8;
+}
+
+input[type="text"]::placeholder {
+  color: #999;
+}
+
+button {
+  padding: 12px 20px;
+  background: #000;
+  color: #fff;
+  border: none;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Site entry styles */
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border: 1px solid #eee;
+  font-size: 14px;
+}
+
+li .site-name {
+  font-weight: 500;
+}
+
+li button.remove-btn {
+  background: transparent;
+  color: #000;
+  border: 1px solid #e0e0e0;
+  padding: 4px 8px;
+  font-size: 10px;
+  margin-left: 10px;
+}
+
+li button.remove-btn:hover {
+  background: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+.empty-state {
+  text-align: center;
+  color: #999;
+  font-size: 12px;
+  padding: 20px 0;
+  font-style: italic;
+}
+
+/* New UI Elements */
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.checkbox-group input[type="checkbox"] {
+  cursor: pointer;
+  accent-color: #000;
+  width: 16px;
+  height: 16px;
+}
+
+.checkbox-group label {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.footer {
+  margin-top: 10px;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #ccc;
+  padding-top: 10px;
+}
