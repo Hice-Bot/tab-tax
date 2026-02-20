@@ -1,0 +1,232 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --border-color: #000000;
+    --secondary-bg: #f8f8f8;
+    --light-border: #eee;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 60px;
+    border-bottom: 4px solid var(--border-color);
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 800;
+    letter-spacing: 6px;
+    margin: 0 0 20px;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 0 0 40px;
+    border-bottom: 4px solid var(--border-color);
+    padding-bottom: 15px;
+    display: inline-block;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0 0 15px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-transform: none;
+    /* Keep paragraph text readable */
+}
+
+/* Let's make sure uppercase isn't too severe on paragraphs */
+.tagline {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.hero-actions {
+    margin-top: 40px;
+}
+
+.button-subtle {
+    display: inline-block;
+    color: var(--text-color);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 2px;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+    text-transform: uppercase;
+}
+
+.button-subtle:hover {
+    opacity: 0.7;
+}
+
+.feature-showcase,
+.minigames-showcase {
+    text-align: center;
+}
+
+.feature-grid {
+    display: flex;
+    justify-content: center;
+}
+
+.feature-item {
+    max-width: 500px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 4px solid var(--border-color);
+    box-shadow: 12px 12px 0 var(--border-color);
+    margin-bottom: 30px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background-color: white;
+}
+
+img:hover {
+    transform: translate(-4px, -4px);
+    box-shadow: 16px 16px 0 var(--border-color);
+}
+
+.games-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.game-card {
+    border: 4px solid var(--border-color);
+    padding: 30px 20px;
+    background: var(--secondary-bg);
+    transition: all 0.2s ease;
+    box-shadow: 8px 8px 0 var(--border-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.game-card:hover {
+    background: var(--bg-color);
+    box-shadow: 12px 12px 0 var(--border-color);
+    transform: translate(-4px, -4px);
+}
+
+.game-card img {
+    border: 2px solid var(--light-border);
+    box-shadow: none;
+    margin-bottom: 20px;
+}
+
+.game-card img:hover {
+    transform: none;
+    box-shadow: none;
+    border-color: var(--border-color);
+}
+
+.footer {
+    text-align: center;
+    border-top: 4px solid var(--border-color);
+    padding-top: 40px;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    color: #666;
+    text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    .container {
+        padding: 40px 15px;
+        gap: 60px;
+    }
+}
+
+.install-section {
+    text-align: center;
+    border-top: 4px solid var(--border-color);
+    padding-top: 60px;
+}
+
+.install-actions {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.install-instructions {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    background: var(--secondary-bg);
+    border: 4px solid var(--border-color);
+    padding: 30px;
+    box-shadow: 8px 8px 0 var(--border-color);
+}
+
+.install-instructions ol {
+    margin: 0;
+    padding-left: 20px;
+    font-size: 14px;
+    line-height: 1.8;
+    text-transform: none;
+}
+
+.install-instructions li {
+    margin-bottom: 15px;
+}
+
+.install-instructions code {
+    background: #e0e0e0;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: inherit;
+    font-weight: 600;
+}
