@@ -1,0 +1,92 @@
+TAB TAX — Break the Cycle of Mindless Browsing
+
+You know the feeling. You sit down to get work done, and twenty minutes later you're deep in a YouTube rabbit hole wondering how you got there. It wasn't a choice — it was a reflex. Tab Tax fixes that.
+
+---
+
+WHAT IS TAB TAX?
+
+Tab Tax is a lightweight Chrome extension that puts a moment of friction between you and your distraction sites. Instead of instantly loading Reddit, Twitter, YouTube, or any site you add to your list, Tab Tax intercepts you and asks you to complete a quick mental challenge first — a math quiz, a memory test, or a typing challenge.
+
+It's not a blocker. It's a tax.
+
+You can still visit those sites. You just have to earn it. That 10-second pause is enough to break the autopilot loop and make the visit a deliberate choice instead of a reflex.
+
+---
+
+WHY IT WORKS
+
+Mindless browsing doesn't happen because you're lazy — it happens because it's frictionless. Your brain is wired to follow the path of least resistance, and clicking a bookmark or typing a URL takes almost zero effort.
+
+Tab Tax adds just enough friction to interrupt the habit loop. In behavioral psychology, this is called a "commitment device" — a small obstacle that forces you to consciously decide whether you actually want to do the thing. Most of the time, once you stop and think, you'll realize you don't.
+
+Studies show that even a 10–20 second delay dramatically reduces impulsive digital behavior. Tab Tax harnesses this science in the simplest possible way.
+
+---
+
+FEATURES
+
+✓ CUSTOMIZABLE BLOCKLIST — Add any website you want to "tax." YouTube, Reddit, Twitter, TikTok, news sites, sports scores — your list, your rules.
+
+✓ THREE BUILT-IN MINI-GAMES — Complete one of three randomized challenges to earn your visit:
+   • Math Quiz — Solve a quick arithmetic problem.
+   • Memory Matrix — Memorize and recall a pattern.
+   • Typing Challenge — Type a short phrase accurately.
+
+✓ TAX ALL NEW TABS — Enable a global mode that applies a challenge to every new tab you open. For those days when you need to mean it.
+
+✓ ZERO DATA COLLECTED — Tab Tax never tracks your browsing history, never phones home, and never shares anything with anyone. Your data stays on your device. Always.
+
+✓ INSTANT SETUP — No account required. No sign-up. No subscription. Install, add a site, and you're running.
+
+✓ MINIMAL & FAST — Tab Tax is tiny. It doesn't slow your browser, run in the background, or consume memory. When you're not on a taxed site, you won't even know it's there.
+
+---
+
+WHO IS IT FOR?
+
+→ Remote workers who lose hours to social media during the workday.
+→ Students who need to stay focused during study sessions.
+→ Anyone who has ever opened Twitter "just to check" and looked up 45 minutes later.
+→ People who have tried hard blockers and found them too restrictive — Tab Tax gives you freedom with accountability.
+
+---
+
+HOW IT WORKS
+
+1. Install Tab Tax from the Chrome Web Store.
+2. Click the Tab Tax icon in your toolbar.
+3. Type in any domain you want to tax (e.g., youtube.com, reddit.com).
+4. The next time you visit that site, you'll be asked to complete a quick challenge before the page loads.
+5. Pass the challenge → visit the site. Your call.
+
+That's it. No setup wizards. No premium tiers. No nonsense.
+
+---
+
+PERMISSIONS EXPLAINED
+
+Tab Tax requests only the permissions it absolutely needs:
+• storage — to remember your list of taxed sites on your device.
+• activeTab — to check if the current page is on your list.
+• scripting — to display the mini-game challenge on matching pages.
+
+No permission is used to collect or transmit any data.
+
+---
+
+PRIVACY
+
+Tab Tax collects zero personal data. No browsing history. No usage statistics. No analytics. Nothing leaves your device. Read the full policy at: https://tabtax.hicebot.live/privacy.html
+
+---
+
+OPEN SOURCE
+
+Tab Tax is open source and available on GitHub. You can inspect every line of code, contribute improvements, or fork it for your own use.
+
+https://github.com/Hice-Bot/tab-tax
+
+---
+
+Stop letting the internet happen to you. Install Tab Tax and take back your attention.
