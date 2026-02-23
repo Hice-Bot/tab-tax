@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tab Tax Installed!</title>
+    <style>
+        body {
+            background-color: #ffffff;
+            color: #000000;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 620px;
+            padding: 50px 40px;
+            border: 2px solid #000;
+            box-shadow: 10px 10px 0px #000;
+        }
+
+        .thanks {
+            font-size: 0.85rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            color: #555;
+            margin: 0 0 6px 0;
+        }
+
+        h1 {
+            font-size: 4rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin: 0 0 30px 0;
+            border-bottom: 2px solid #000;
+            padding-bottom: 24px;
+        }
+
+        .look-up {
+            font-size: 1rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #333;
+            margin-bottom: 6px;
+        }
+
+        .arrow-up {
+            font-size: 2.5rem;
+            display: block;
+            animation: bounce 1.8s ease-in-out infinite;
+        }
+
+        @keyframes bounce {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-12px);
+            }
+        }
+
+        .steps {
+            margin-top: 28px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            text-align: left;
+        }
+
+        .step {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            background: #f5f5f5;
+            border: 1.5px solid #000;
+            border-radius: 8px;
+            padding: 14px 18px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        .step-num {
+            font-size: 1.1rem;
+            font-weight: 900;
+            min-width: 22px;
+        }
+
+        /* Outlined icon style — matches T icon appearance */
+        .icon-outlined {
+            width: 26px;
+            height: 26px;
+            border: 2px solid #000;
+            border-radius: 5px;
+            padding: 2px;
+            background: #fff;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            vertical-align: middle;
+        }
+
+        .icon-outlined img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        /* Inline pin SVG icon matching outlined style */
+        .pin-svg {
+            width: 16px;
+            height: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <p class="thanks">Thanks for installing</p>
+        <h1>Tab Tax</h1>
+
+        <span class="arrow-up">⇧⇧⇧</span>
+        <p class="look-up">Look up to the top right of your browser</p>
+
+        <div class="steps">
+
+            <!-- Step 1 -->
+            <div class="step">
+                <span class="step-num">1.</span>
+                <span>Click the extensions</span>
+                <span class="icon-outlined">
+                    <img src="assets/puzzle_piece_icon.png" alt="Extensions puzzle piece icon">
+                </span>
+                <span>icon</span>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="step">
+                <span class="step-num">2.</span>
+                <span>Click the Pin</span>
+                <span class="icon-outlined">
+                    <!-- Pin / thumbtack SVG -->
+                    <svg class="pin-svg" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2.2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="12" y1="17" x2="12" y2="22" />
+                        <path
+                            d="M5 17h14v-1.76a2 2 0 0 0-1.11-1.79l-1.78-.9A2 2 0 0 1 15 10.76V6h1a2 2 0 0 0 0-4H8a2 2 0 0 0 0 4h1v4.76a2 2 0 0 1-1.11 1.79l-1.78.9A2 2 0 0 0 5 15.24Z" />
+                    </svg>
+                </span>
+                <span>icon next to</span>
+                <span class="icon-outlined">
+                    <img src="assets/icon16.png" alt="Tab Tax T icon">
+                </span>
+                <span>Tab Tax</span>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="step">
+                <span class="step-num">3.</span>
+                <span>Click the</span>
+                <span class="icon-outlined">
+                    <img src="assets/icon16.png" alt="Tab Tax T icon">
+                </span>
+                <span>T icon for quick configuration</span>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
