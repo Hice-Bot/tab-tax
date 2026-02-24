@@ -129,6 +129,18 @@ img:hover {
     box-shadow: 16px 16px 0 var(--border-color);
 }
 
+.promo-video {
+    width: 100%;
+    max-width: 400px;
+    /* Vertical video size */
+    height: auto;
+    border: 8px solid var(--border-color);
+    box-shadow: 16px 16px 0 var(--border-color);
+    margin: 40px auto;
+    display: block;
+    background-color: var(--border-color);
+}
+
 .games-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
